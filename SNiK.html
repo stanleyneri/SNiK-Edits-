@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNiK Edits - Video Editing Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  <!-- Header -->  <header>
+    <div class="container">
+      <h1>SNiK Edits</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>  <!-- Hero Section -->  <section id="hero">
+    <div class="container">
+      <h2>Your Professional Video Editor</h2>
+      <p>I create engaging social media videos, YouTube content, and promotional clips with professional editing techniques.</p>
+    </div>
+  </section>  <!-- Projects Section -->  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Social Media Video Editing</h3>
+          <p>I professionally edit short videos for TikTok, Instagram Reels, and YouTube Shorts. Focused on hooks, smooth transitions, captions, and music syncing.</p>
+        </div>
+        <div class="card">
+          <h3>YouTube Content Editing</h3>
+          <p>I edit YouTube vlogs, tutorials, interviews, and educational content. Includes cutting, adding text, sound effects, and background music.</p>
+        </div>
+        <div class="card">
+          <h3>Promotional & Brand Videos</h3>
+          <p>I create high-quality promotional videos for brands, including logo animations, motion text, clean transitions, and color enhancements.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Tools Section -->  <section id="tools">
+    <div class="container">
+      <h2>Tools I Use</h2>
+      <p>CapCut, Adobe Premiere Pro, After Effects, VN Editor, and other mobile editing tools.</p>
+    </div>
+  </section>  <!-- Contact Section -->  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form onsubmit="event.preventDefault(); alert('Thanks! This is a demo form.');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> SNiK Edits. All rights reserved.</p>
+    </div>
+  </footer>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
